@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { LoginComponent } from '../login/login.component';
 
 @Component({
   selector: 'app-cadastro',
-  imports: [],
+  standalone: true,
+  imports: [LoginComponent],
   templateUrl: './cadastro.component.html',
   styleUrl: './cadastro.component.css'
 })

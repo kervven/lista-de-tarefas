@@ -5,9 +5,9 @@ import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
 
 const routes: Routes = [
-    { path: '', redirectTo: 'login', pathMatch: 'full' },
-    { path: 'login', component: LoginComponent },
+    { path: '', redirectTo: 'register', pathMatch: 'full' },
     { path: 'register', component: CadastroComponent },
+    { path: 'login', component: LoginComponent },
     { path: 'tasks', component: TaskListComponent },
 ];
 

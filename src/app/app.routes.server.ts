@@ -14,8 +14,8 @@ export const serverRoutes: ServerRoute[] = [
 
 // Rotas principais da aplicação
 export const routes: Routes = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
-  { path: 'login', component: LoginComponent },
+  { path: '', redirectTo: 'register', pathMatch: 'full' },
   { path: 'register', component: CadastroComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'tasks', component: TaskListComponent },
 ];
